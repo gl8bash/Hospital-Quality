@@ -52,7 +52,7 @@ rankall <- function(outcome, num = "best" ) {
   else num_hosp_rank = num
   
   hospital[i] <- sub.hosp.df$Hosp_Name[num_hosp_rank]    
- num_hosp_rank = num
+  ## num_hosp_rank = num
   }
  # Return data frome
 return(data.frame(hospital=hospital, state=st_tbl))
